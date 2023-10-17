@@ -1,0 +1,46 @@
+header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1296px;
+}
+
+#cabecalho > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#comeco {
+    background-color: rgb(33,37,41);
+}
+
+div img {
+    height: 600px;
+}
+
+#cartao {
+    margin-top: 20px;
+}
+
+#cartao > img {
+    height: 50%;
+}
+
+#carousel_imagens{
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 767px){
+    header > div{
+        flex-direction: column;
+    }
+    
+    div img {
+        height: 300px;
+    }
+}
